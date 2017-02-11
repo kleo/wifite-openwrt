@@ -10,9 +10,9 @@
 # Variables and colors
 RED='\033[0;31m'
 NC='\033[0m'
-WIFITE="https://raw.githubusercontent.com/kbeflo/wifite-mod-pixiewps/master/wifite-ng"
+WIFITE="https://raw.githubusercontent.com/kbeflo/wifite-openwrt/master/wifite-ng"
 #
-echo -e "${RED}Installing: ${NC}Wifite."
+echo -e "${RED}Installing: ${NC}Wifite"
 echo -e "Go grab a cup of coffee, this can take a little while...\n"
 # Download wifite-ng and remove python 
 mkdir /sd/tmp
@@ -28,4 +28,6 @@ chmod +x /sd/tmp/wifite-ng
 mkdir -p /sd/usr/share/wifite
 mv wifite-ng /sd/usr/share/wifite/wifite-ng
 ln -s /sd/usr/share/wifite/wifite-ng /usr/bin/wifite-ng
+echo -e "\n"
+echo -e "Type 'wifite-ng' to launch Wifite"
 exit 0

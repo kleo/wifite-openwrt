@@ -2,7 +2,7 @@
 
 ## Getting Started 
 
-Required sdcard. SSH to your Pineapple. Download/launch the INSTALL.sh script to install Wifite.
+SSH to your Pineapple. Download/launch the INSTALL.sh script to install Wifite. sdcard required
 
 ### Installing
 

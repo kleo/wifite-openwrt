@@ -1,8 +1,8 @@
 # Modified Wifite for WiFi Pineapple NANO + TETRA
 
-## Getting Started 
+## Getting Started
 
-SSH to your Pineapple. Download/launch the INSTALL.sh script to install Wifite. sdcard required
+SSH to your Pineapple. Download/launch the INSTALL.sh script to install Wifite.
 
 ### Installing
 
@@ -34,7 +34,7 @@ Modified version of https://github.com/aanarchyy/wifite-mod-pixiewps to include 
 #Required tools
 
     You must install Pixiewps by Wiire (https://github.com/wiire/pixiewps)
-      and 
+      and
     You must install reaver-wps-fork-t6x by t6x (https://github.com/t6x/reaver-wps-fork-t6x)
 
 #ToDo
@@ -43,7 +43,7 @@ Modified version of https://github.com/aanarchyy/wifite-mod-pixiewps to include 
     Add option to dynamically spoof connected client while running attack.
     Add option to auto-skip previously cracked AP instead of prompting.
     Add recording for individual access points(clients, signal strenght, hashes, solved pins, etc).
-    
+
 
 #May do    
     Add option to download and install pixiewps and modified reaver from github

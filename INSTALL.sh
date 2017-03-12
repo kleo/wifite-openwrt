@@ -1,20 +1,19 @@
 #!/bin/bash
 #
 # Installation script for Wifite for the WiFi Pineapple NANO + TETRA.
-# 
+#
 # Written by: Kleo Bercero - kbeflo@gmail.com - https://github.com/kbeflo
 # Many thanks for the help and guidance: Andreas Nilsen - adde88@gmail.com - https://www.github.com/adde88
 #
 # Starting wifite-ng install.
 #
 # Variables and colors
-RED='\033[0;31m'
+GREEN='\033[0;32m'
 NC='\033[0m'
 WIFITE="https://raw.githubusercontent.com/kbeflo/wifite-openwrt/master/wifite-ng"
 #
-echo -e "sdcard required"
-echo -e "${RED}Installing: ${NC}Wifite"
-echo -e "Go grab a cup of coffee, this can take a little while...\n"
+echo -e ""
+echo -e "Installing Wifite\n"
 # Download wifite-ng and remove python
 cd /tmp
 wget "$WIFITE"
@@ -31,6 +30,8 @@ fi
 # Cleanup
 mv /tmp/wifite-ng /usr/sbin/wifite-ng
 chmod +x /usr/sbin/wifite-ng
-echo -e "Type 'wifite-ng' to launch Wifite"
+echo -e ""
+echo -e "Installation finished\n"
+echo -e "${GREEN}wifite-ng${NC} to launch Wifite"
+echo -e "${GREEN}wifite-ng --help${NC} for more options\n"
 exit 0
-

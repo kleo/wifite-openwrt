@@ -42,7 +42,7 @@ Modified version of https://github.com/aanarchyy/wifite-mod-pixiewps to include 
     Add check to see if update is needed before performing.
     Add option to dynamically spoof connected client while running attack.
     Add option to auto-skip previously cracked AP instead of prompting.
-    Add recording for individual access points(clients, signal strenght, hashes, solved pins, etc).
+    Add recording for individual access points(clients, signal strength, hashes, solved pins, etc).
 
 
 #May do    
@@ -54,3 +54,13 @@ Modified version of https://github.com/aanarchyy/wifite-mod-pixiewps to include 
 
 * Thanks to the authors of wifite-ng! Forked from https://github.com/binkybear/wifite-mod-pixiewps
 * Many thanks for the help and guidance: Andreas Nilsen - https://www.github.com/adde88
+
+---
+
+Distributed under the GNU GENERAL PUBLIC LICENSE v3. See [LICENSE](https://github.com/kbeflo/wifite-openwrt/blob/master/LICENSE) for more information.
+
+Note that this repo is for educational purposes only. No contributors, major or minor, are to fault for any actions done by this program.
+
+Kleo Bercero - [@kbeflo](https://twitter.com/kbeflo) - [My website](https://kerberos.me/)
+
+Support me on - [Patreon](https://www.patreon.com/kbeflo)

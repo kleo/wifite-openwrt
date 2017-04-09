@@ -2,12 +2,12 @@
 
 ## Getting Started
 
-SSH to your Pineapple. Download/launch the INSTALL.sh script to install Wifite.
+SSH to your Pineapple. Launch the INSTALL.sh script to install Wifite.
 
 ### Installing
 
 ```bash
-wget -qO- https://raw.githubusercontent.com/kbeflo/wifite-openwrt/master/INSTALL.sh | bash -s -- -v -v
+wget -qO- https://raw.githubusercontent.com/kbeflo/wifite-openwrt/master/INSTALL.sh | bash
 ```
 
 ## Running Wifite
@@ -31,11 +31,6 @@ Modified version of https://github.com/aanarchyy/wifite-mod-pixiewps to include 
     -paddto <sec>     # add n seconds to timeout on each hash retrevial, default 30
     -update           # now updates to this fork instead of original wifite
     -endless          # will now loop through targets forever until stopped
-#Required tools
-
-    You must install Pixiewps by Wiire (https://github.com/wiire/pixiewps)
-      and
-    You must install reaver-wps-fork-t6x by t6x (https://github.com/t6x/reaver-wps-fork-t6x)
 
 #ToDo
     Add check for pixiewps, modified reaver, and offer option to install.
@@ -43,7 +38,6 @@ Modified version of https://github.com/aanarchyy/wifite-mod-pixiewps to include 
     Add option to dynamically spoof connected client while running attack.
     Add option to auto-skip previously cracked AP instead of prompting.
     Add recording for individual access points(clients, signal strength, hashes, solved pins, etc).
-
 
 #May do    
     Add option to download and install pixiewps and modified reaver from github

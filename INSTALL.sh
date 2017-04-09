@@ -23,6 +23,8 @@ opkg remove python*
 if [ -e /sd ]; then
 	# Install python, reaver, and pixiewps to sd card
 	opkg --dest sd install python reaver pixiewps
+	sed -i '183s/tmp/sd\/tmp/' /tmp/wifite-ng
+	mkdir /sd/tmp
 else
 	# Tetra installation / general install.
 	opkg install python reaver pixiewps

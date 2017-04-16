@@ -24,7 +24,7 @@ Modified version of https://github.com/aanarchyy/wifite-mod-pixiewps to include 
 * Macchanger fix
 * Oui lookup for pingen attack
 
-#Added flags
+### Added flags
     -pto <sec>        # configurable timeout for pixiewps attack, default 660
     -ponly            # uses only pixiewps and reaver up until M3
     -pnopsk           # do not run retrieved pin through reaver
@@ -32,14 +32,14 @@ Modified version of https://github.com/aanarchyy/wifite-mod-pixiewps to include 
     -update           # now updates to this fork instead of original wifite
     -endless          # will now loop through targets forever until stopped
 
-#ToDo
+### ToDo
     Add check for pixiewps, modified reaver, and offer option to install.
     Add check to see if update is needed before performing.
     Add option to dynamically spoof connected client while running attack.
     Add option to auto-skip previously cracked AP instead of prompting.
     Add recording for individual access points(clients, signal strength, hashes, solved pins, etc).
 
-#May do    
+#### May do    
     Add option to download and install pixiewps and modified reaver from github
     Add mdk3 support
     Add default pin calculations and options

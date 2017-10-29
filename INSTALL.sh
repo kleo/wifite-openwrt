@@ -29,7 +29,7 @@ else
 	# Tetra installation / general install.
 	opkg install python reaver pixiewps
 fi
-if [ -e /etc/reaver ]; then
+if [ -ne /etc/reaver ]; then
 	mkdir /etc/reaver
 # Cleanup
 mv /tmp/wifite-ng /usr/sbin/wifite-ng

@@ -1,5 +1,7 @@
 # Modified Wifite for WiFi Pineapple NANO + TETRA
 
+Discontinued, [discussion thread](https://forums.hak5.org/topic/40108-wifi-pineapple-wifite/)
+
 ## Getting Started
 
 SSH to your Pineapple. Launch the INSTALL.sh script to install Wifite.
